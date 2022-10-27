@@ -1,0 +1,23 @@
+{
+  "title": "Workshop Scenario 02",
+  "description": "Demo",
+  "difficulty": "beginner",
+  "details": { 
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Test",
+        "text": "test.md",
+        "verify": "test.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
