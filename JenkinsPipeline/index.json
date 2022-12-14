@@ -1,0 +1,30 @@
+{
+  "title": "Jenkins Pipeline",
+  "description": "Tutorial for Jenkins pipeline. Practical task",
+  "difficulty": "beginner",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Create Jenkins Docker container",
+        "text": "step1CreateJenkinsContainer.md"
+      },
+      {
+        "title": "Start Jenkins",
+        "text": "step2StartJenkins.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+    "environment": {
+      "uilayout": "terminal",
+      "uisettings": "bash"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
