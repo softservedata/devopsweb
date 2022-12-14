@@ -18,7 +18,7 @@
     ],
     "finish": {
       "text": "finish.md"
-    }
+    },
     "environment": {
       "uilayout": "terminal",
       "uisettings": "bash"
