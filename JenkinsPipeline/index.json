@@ -4,16 +4,17 @@
   "difficulty": "beginner",
   "details": {
     "intro": {
-      "text": "intro.md"
+      "text": "intro/text.md"
+      "foreground": "intro/foreground.sh"
     },
     "steps": [
       {
-        "title": "Create Jenkins Docker container",
-        "text": "step1.md"
+        "title": "Start Jenkins",
+        "text": "step1/text.md"
       },
       {
-        "title": "Start Jenkins",
-        "text": "step2.md"
+        "title": "Create a Jenkins task",
+        "text": "step2/text.md"
       }
     ],
     "finish": {
