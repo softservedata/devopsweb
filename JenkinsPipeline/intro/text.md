@@ -1,17 +1,20 @@
 ## Jenkins Assignment
 
-The goal of this assignment is to automate the Ci/CD process by using Jenkins.
+The goal of this assignment is to automate the CI process by using Jenkins.
 
-### The build Should triggered automatically in the pipeline job.
+Task
+1. Sign in to Jenkins
+2. Create a Jenkins pipeline job
+3. Clone the project to a private repository
+4. Add Github credentials to Jenkins
+5. Update the pipeline script
+6. Create a GitHub hook trigger for GITScm polling
+7. Update the configuration file in the project
+8. Get the result of the script execution
 
-Pre-requisite:
-
-1. We will give github repo access.
-2. They are Dockerfile and Java Application. Dockerfile is used to create a custom Docker image.
-3. The Jenkins container is based on the alpine:latest image.
-4. Jenkins server (installed with port 8080)
-
-you will get the Credentails in next page ------->>>>>
+> Now installation of Jenkins is underway.
+> Wait for the message "Jenkins is up and running"
+> You will get the Credentails in next page.
 
 <br/><br/>
 
