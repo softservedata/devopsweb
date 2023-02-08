@@ -2,6 +2,6 @@
 
 stty -echo
 
-while [ ! -f /tmp/backgroundintro ]; do sleep 2; echo -n "."; done
+while [ ! "$(docker ps -a -q -f name=jenkins_server)" ]; do sleep 2; echo -n "."; done
 
 echo "Jenkins is up and running"

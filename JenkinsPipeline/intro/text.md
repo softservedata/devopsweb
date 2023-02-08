@@ -13,7 +13,9 @@ Task
 8. Get the result of the script execution
 
 > Now installation of Jenkins is underway.
+
 > Wait for the message "Jenkins is up and running"
+
 > You will get the Credentails in next page.
 
 <br/><br/>
