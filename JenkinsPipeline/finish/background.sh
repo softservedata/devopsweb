@@ -1,3 +1,3 @@
 sleep 3
 echo "done"
-echo done > /tmp/background3
+echo "done" > /tmp/background8

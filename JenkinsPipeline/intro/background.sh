@@ -16,6 +16,4 @@ cd devopsjen
 
 docker build -t alpinejenkins .
 
-echo build
 docker run --rm --detach --name jenkins_server -p 8080:8080 -v jenkins_home:/root/.jenkins alpinejenkins
-echo done
