@@ -11,7 +11,7 @@ The goal of this assignment is to automate the CI process by using Jenkins.
 6. Update the pipeline script
 
 - Now installation of Jenkins is underway.
-- Wait for the message "Jenkins is up and running"
+- Wait for the message **"Jenkins is up and running"**
 - You will get the Credentails in next page.
 
 <br/><br/>

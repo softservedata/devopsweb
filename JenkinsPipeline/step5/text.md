@@ -8,7 +8,7 @@
 
 ![Picture 46](../assets/step5pic2system.png)
 
->Provide username and github secrets in place of password and then click on the OK button.
+>Provide username and github secrets in place of password and then click on the **Create** button.
 
 ![Picture 47](../assets/step5pic3credentials.png)
 

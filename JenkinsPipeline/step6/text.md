@@ -1,6 +1,6 @@
 # Update the pipeline script
 
->Now Goto the Jenkins job where you have pasted the code and insert **credentialsId: 'github_creds'**
+>Now go to the Jenkins job where you have pasted the code and insert **credentialsId: 'github_creds'**
 
 ![Picture 61](../assets/step6pic1addCreds.png)
 
