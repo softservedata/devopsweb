@@ -8,9 +8,6 @@ The goal of this assignment is to automate the CI process by using Jenkins.
 3. Clone the project to a private repository
 4. Add Github credentials to Jenkins
 5. Update the pipeline script
-6. Create a GitHub hook trigger for GITScm polling
-7. Update the configuration file in the project
-8. Get the result of the script execution
 
 - Now installation of Jenkins is underway.
 - Wait for the message "Jenkins is up and running"

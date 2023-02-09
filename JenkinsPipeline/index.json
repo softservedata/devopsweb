@@ -18,28 +18,16 @@
         "text": "step2/text.md"
       },
       {
-        "title": "Create a Jenkins task",
-        "text": "step2/text.md"
+        "title": "Clone the project",
+        "text": "step3/text.md"
       },
       {
-        "title": "Create a Jenkins task",
-        "text": "step2/text.md"
+        "title": "Add Github credentials",
+        "text": "step4/text.md"
       },
       {
-        "title": "Create a Jenkins task",
-        "text": "step2/text.md"
-      },
-      {
-        "title": "Create a Jenkins task",
-        "text": "step2/text.md"
-      },
-      {
-        "title": "Create a Jenkins task",
-        "text": "step2/text.md"
-      },
-      {
-        "title": "Create a Jenkins task",
-        "text": "step2/text.md"
+        "title": "Update the pipeline script",
+        "text": "step5/text.md"
       }
     ],
     "finish": {

@@ -1,6 +1,5 @@
 # Create a Jenkins pipeline job
 
-
 >Click to the **new item** menu on the left side 
 
 ![Picture 21](../assets/step2pic1newItem.png)
@@ -58,6 +57,6 @@ pipeline {
 
 >You should get "Finished: SUCCESS"
 
-![Picture 28](../assets/step2pic9finishSuccess.png)
+![Picture 29](../assets/step2pic9finishSuccess.png)
 
 <br/>

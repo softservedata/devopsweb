@@ -1,5 +1,9 @@
-**Finish**
+## Finish
 
-<br>
+The end of first practical task
 
-THE END
+_**DevOps Practical Development**_ 
+
+_**SoftServe Academy**_
+
+<br/>

@@ -1,8 +1,8 @@
 # Sign in to Jenkins
 
-### Click here to [ACCESS JENKINS]({{TRAFFIC_HOST1_8080}}) server
-
 ![Picture 11](../assets/step1pic1signIn.png)
+
+### Click here to [ACCESS JENKINS]({{TRAFFIC_HOST1_8080}}) server
 
 > Required Credentails:
 
