@@ -6,8 +6,9 @@ The goal of this assignment is to automate the CI process by using Jenkins.
 1. Sign in to Jenkins
 2. Create a Jenkins pipeline job
 3. Clone the project to a private repository
-4. Add Github credentials to Jenkins
-5. Update the pipeline script
+4. Generate a new github token
+5. Add Github credentials to Jenkins
+6. Update the pipeline script
 
 - Now installation of Jenkins is underway.
 - Wait for the message "Jenkins is up and running"

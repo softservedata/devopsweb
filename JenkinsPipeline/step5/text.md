@@ -1,25 +1,15 @@
-# Update the pipeline script
+# Add Github credentials to Jenkins
 
->Now Goto the Jenkins job where you have pasted the code and insert **credentialsId: 'github_creds'**
+>Return to Jenkins, click **Manage Jenkins** and **Manage Credentials**.
 
-![Picture 51](../assets/step5pic1addCreds.png)
+![Picture 45](../assets/step5pic1manageCredentials.png)
 
->Save the Job and check the execution with a manual run
+>Choose **System** and **Global credentials**
 
-![Picture 52](../assets/step2pic6buildNow.png)
+![Picture 46](../assets/step5pic2system.png)
 
->Click on the task status bar
+>Provide username and github secrets in place of password and then click on the OK button.
 
-![Picture 27](../assets/step2pic7statusBar.png)
-
->Select the **Console Output**
-
-![Picture 28](../assets/step2pic8consoleOutput.png)
-
->You should get "Finished: SUCCESS"
-
-![Picture 29](../assets/step2pic9finishSuccess.png)
-
-![Picture 52](../assets/step5pic2stageView.png)
+![Picture 47](../assets/step5pic3credentials.png)
 
 <br/>

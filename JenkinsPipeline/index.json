@@ -22,12 +22,16 @@
         "text": "step3/text.md"
       },
       {
-        "title": "Add Github credentials",
+        "title": "Generate a new github token",
         "text": "step4/text.md"
       },
       {
-        "title": "Update the pipeline script",
+        "title": "Add Github credentials to Jenkins",
         "text": "step5/text.md"
+      },
+      {
+        "title": "Update the pipeline script",
+        "text": "step6/text.md"
       }
     ],
     "finish": {
