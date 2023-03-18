@@ -1,8 +1,7 @@
 # Clone the project to a private repository
-repository="https://github.com/softservedata/lv722.git"
 
->Import the project repository 
-[{repository}]({repository})
+>Import the project from repository 
+[repository]
 to your new private repository.
 
 ![Picture 31](../assets/step3pic1import.png)
@@ -13,4 +12,4 @@ to your new private repository.
 
 <br/>
 
-[repositor]: https://github.com/softservedata/lv722.git
+[repository]: https://github.com/softservedata/lv722.git (https://github.com/softservedata/lv722.git)
