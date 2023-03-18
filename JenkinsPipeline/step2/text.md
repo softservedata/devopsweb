@@ -1,5 +1,7 @@
 # Create a Jenkins pipeline job
 
+repository="https://github.com/softservedata/lv722.git"
+
 >Click to the **new item** menu on the left side 
 
 ![Picture 21](../assets/step2pic1newItem.png)
@@ -24,7 +26,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git url: '[repository]', branch: 'contact'
+                git url: '{repository}', branch: 'contact'
             }
         }
         stage('Build') {
@@ -61,4 +63,3 @@ pipeline {
 
 <br/>
 
-[repository]: https://github.com/softservedata/lv722.git
