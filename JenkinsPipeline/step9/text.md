@@ -1,4 +1,4 @@
-# Setting Github webhooks
+# Setting Github webhook
 
 >Go to the Webhooks section of the Settings tab in the GitHub menu.
 

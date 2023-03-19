@@ -11,7 +11,7 @@ The goal of this assignment is to automate the CI process by using Jenkins.
 6. Update the pipeline script
 7. Setup webhook trigger
 8. Generate Jenkins API token
-9. Setting Github webhooks
+9. Setting Github webhook
 10. Update Github repository
 11. Check the pipeline execution result
 
