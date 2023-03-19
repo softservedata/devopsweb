@@ -12,4 +12,4 @@ to your new private repository.
 
 <br/>
 
-[repository]: https://github.com/softservedata/lv722.git
+[repository]: https://github.com/softservedata/devopsjen.git

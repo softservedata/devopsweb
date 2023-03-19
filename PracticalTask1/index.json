@@ -1,0 +1,35 @@
+{
+  "title": "Jenkins Pipeline",
+  "description": "Tutorial for Jenkins pipeline. Practical task",
+  "difficulty": "beginner",
+  "details": {
+    "intro": {
+      "text": "intro/text.md",
+      "foreground": "intro/foreground.sh",
+      "background": "intro/background.sh"
+    },
+    "steps": [
+      {
+        "title": "Start Jenkins",
+        "text": "step1/text.md"
+      },
+      {
+        "title": "Create a Jenkins task",
+        "text": "step2/text.md"
+      }
+    ],
+    "finish": {
+      "title": "Finish",
+      "text": "finish/text.md",
+      "foreground": "finish/foreground.sh",
+      "background": "finish/background.sh"
+    },
+    "environment": {
+      "uilayout": "terminal",
+      "uisettings": "bash"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

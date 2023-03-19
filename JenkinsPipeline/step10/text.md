@@ -4,7 +4,7 @@
 
 ![Picture 101](../assets/step10pic1githubUpdateReadme.png)
 
-Save the changes to the repository.
+>Save the changes to the repository.
 
 ![Picture 102](../assets/step10pic2githubCommitReadme.png)
 

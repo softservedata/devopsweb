@@ -24,17 +24,17 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git url: 'https://github.com/softservedata/lv722.git', branch: 'contact'
+                git url: 'https://github.com/softservedata/devopsjen.git', branch: 'contact'
             }
         }
         stage('Build') {
             steps {
-                sh 'mvn -B -DskipTests package'
+                sh 'mvn -B package -DskipTests'
             }
         }
         stage('Unit Test') {
             steps {
-                 sh 'mvn -B package -DskipTests'
+                sh 'mvn -B test'
             }
         }
     }
@@ -61,4 +61,4 @@ pipeline {
 
 <br/>
 
-[repository]: https://github.com/softservedata/lv722.git
+[repository]: https://github.com/softservedata/devopsjen.git
