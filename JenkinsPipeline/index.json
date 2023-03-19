@@ -32,6 +32,26 @@
       {
         "title": "Update the pipeline script",
         "text": "step6/text.md"
+      },
+      {
+        "title": "Setup webhook trigger",
+        "text": "step7/text.md"
+      },
+      {
+        "title": "Generate Jenkins API token",
+        "text": "step8/text.md"
+      },
+      {
+        "title": "Setting Github webhooks",
+        "text": "step9/text.md"
+      },
+      {
+        "title": "Update Github repository",
+        "text": "step10/text.md"
+      },
+      {
+        "title": "Check the pipeline execution result",
+        "text": "step11/text.md"
       }
     ],
     "finish": {
