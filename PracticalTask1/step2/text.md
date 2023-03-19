@@ -47,6 +47,10 @@ pipeline {
 }
 ```
 
+>Check the execution of the pipeline script.
+
+>Push Jenkinsfile to your repository.
+
 <br/>
 
 [repository]: https://github.com/softservedata/devopsjen
