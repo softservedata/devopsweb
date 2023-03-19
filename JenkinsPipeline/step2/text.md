@@ -24,7 +24,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git url: '[repository]', branch: 'contact'
+                git url: 'https://github.com/softservedata/lv722.git', branch: 'contact'
             }
         }
         stage('Build') {
@@ -61,4 +61,4 @@ pipeline {
 
 <br/>
 
-[repository]: https://github.com/softservedata/lv722.git (https://github.com/softservedata/lv722.git)
+[repository]: https://github.com/softservedata/lv722.git
