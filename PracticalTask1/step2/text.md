@@ -24,33 +24,6 @@
 
 ![Picture 26](../assets/step2pic6repository.png)
 
->Save the Job and use next template for "Jenkinsfile"
-
-```
-pipeline {
-    agent any
-    environment {
-      // TODO
-    }
-    stages {
-        stage('Build') {
-            steps {
-                // TODO
-            }
-        }
-        stage('Unit Test') {
-            steps {
-                 // TODO
-            }
-        }
-    }
-}
-```
-
->Check the execution of the pipeline script.
-
->Push Jenkinsfile to your repository.
+>Save the Job and develop a Jenkins pipeline solution in your repository
 
 <br/>
-
-[repository]: https://github.com/softservedata/devopsjen
