@@ -1,6 +1,6 @@
 ## Finish
 
-The end of first practical task
+The end of practical task
 
 _**DevOps Practical Development**_ 
 
