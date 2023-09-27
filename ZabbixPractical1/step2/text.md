@@ -8,15 +8,33 @@ sudo wget https://repo.zabbix.com/zabbix/6.4/ubuntu/pool/main/z/zabbix-release/z
 ```
 sudo dpkg -i zabbix-release_6.4-1+ubuntu20.04_all.deb
 ```{{exec}}
+```
+
+* Update the package index too
+apt update
+```{{exec}}
 
 * Install Zabbix server, frontend, agent
 ```
-sudo apt install zabbix-server-mysql zabbix-frontend-php zabbix-nginx-conf zabbix-sql-scripts zabbix-agent
+sudo apt install -y zabbix-server-mysql
 ```{{exec}}
+```
+sudo apt install -y zabbix-frontend-php
+```{{exec}}
+```
+sudo apt install -y zabbix-nginx-conf
+```{{exec}}
+```
+sudo apt install -y zabbix-sql-scripts
+```{{exec}}
+```
+sudo apt install -y zabbix-agent
+```{{exec}}
+
 
 * Import initial schema and data. You will be prompted to enter your newly created password: Pa$$word2
 ```
-sudo zcat /usr/share/doc/zabbix-server-mysql/create.sql.gz | mysql --default-character-set=utf8mb4 -u zabbix --passwprd="Pa$$word2" zabbix
+sudo zcat /usr/share/zabbix-sql-scripts/mysql/server.sql.gz | mysql --default-character-set=utf8mb4 -u zabbix -p zabbix
 ```{{exec}}
 
 * Configure the database for Zabbix server. Edit file **/etc/zabbix/zabbix_server.conf**
@@ -24,11 +42,13 @@ sudo zcat /usr/share/doc/zabbix-server-mysql/create.sql.gz | mysql --default-cha
 sudo vi /etc/zabbix/zabbix_server.conf
 ```{{exec}}
 
-and set up
+![Picture 21](dbpassword.png)
+
+Search '# DBPassword=' line, uncomment and set up, click "i" to edit 
 ```
-DBPassword=Pa$$word1
+DBPassword=Pa$$word2
 ```
-Click "i" to edit and "esc", ":" and "wq" to save and exit
+Click "Esc", ":" and "wq" to save and exit
 
 * Configure PHP for Zabbix frontend. Edit file **/etc/zabbix/nginx.conf** uncomment and set 'listen' and 'server_name' directives.
 ```
@@ -41,17 +61,26 @@ listen 8080;
 server_name example.com;
 ```
 
+* Restart PHP-FPM to apply new settings
+```
+sudo systemctl restart php7.4-fpm
+```{{exec}}
+
 * Start Zabbix server and agent processes and make it start at system boot.
 ```
-sudo systemctl restart zabbix-server zabbix-agent nginx php7.4-fpm
+sudo systemctl start zabbix-server
+```{{exec}}
 ```
+sudo systemctl start zabbix-agent
 ```{{exec}}
-sudo systemctl enable zabbix-server zabbix-agent nginx php7.4-fpm
+```
+sudo systemctl restart nginx
 ```{{exec}}
+
 
 * Open Zabbix UI web page
 
-### Click here to [ACCESS JENKINS]({{TRAFFIC_HOST1_8080}}) server
+### Click here to [ACCESS ZABBIX]({{TRAFFIC_HOST1_8080}}) server
 
 It's also possible to access ports using the top-right navigation in the terminal.
 Or we can display the link to that page:
