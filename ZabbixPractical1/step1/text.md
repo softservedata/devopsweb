@@ -10,7 +10,7 @@ sudo apt update
 
 * Install the MySQL server.
 ```
-sudo apt install mysql-server
+sudo apt install -y mysql-server
 ```{{exec}}
 
 * Run the wizard
@@ -33,11 +33,10 @@ sudo mysql_secure_installation
 
 * Connecting to MySQL using a blank password.
 ```
-mysql –u root -p
+sudo mysql
 ```{{exec}}
 
-
-* Select a database mysql
+* Select the database mysql
 ```
 use mysql;
 ```{{exec}}
@@ -49,7 +48,7 @@ alter user 'root'@'localhost' identified with caching_sha2_password by 'Pa$$word
 
 * Create a Zabbix database with support for UTF-8 characters
 ```
-create database zabbixdb character set utf8mb4 collate utf8mb4_bin;
+create database zabbix character set utf8mb4 collate utf8mb4_bin;
 ```{{exec}}
 
 * Create Zabbix user with password 'Pa$$word2'
@@ -64,7 +63,7 @@ grant all on *.* to 'zabbix'@'localhost';
 
 * Reload the grant tables from the disk and clear the cache for faster access
 ```
-flush privileges
+flush privileges;
 ```{{exec}}
 
 * Quit from MySQL Command-Line Client
