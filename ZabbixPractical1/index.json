@@ -18,11 +18,11 @@
         "text": "step2/text.md"
       },
       {
-        "title": "Configuring the MySQL database for Zabbix",
+        "title": "Start using Zabbix",
         "text": "step3/text.md"
       },
       {
-        "title": "Configuring the Zabbix web interface",
+        "title": "Zabbix Web Monitoring",
         "text": "step4/text.md"
       }
     ],

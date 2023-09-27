@@ -1,4 +1,4 @@
-# Configuring the Zabbix web interface
+# Zabbix Web Monitoring
 
 
 
