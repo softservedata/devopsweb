@@ -1,0 +1,43 @@
+{
+  "title": "Zabbix Assignment",
+  "description": "Tutorial for installing and configuring Zabbix. Practical task",
+  "difficulty": "beginner",
+  "details": {
+    "intro": {
+      "text": "intro/text.md",
+      "foreground": "intro/foreground.sh",
+      "background": "intro/background.sh"
+    },
+    "steps": [
+      {
+        "title": "Installation of the MySQL database",
+        "text": "step1/text.md"
+      },
+      {
+        "title": "Install and configure Zabbix",
+        "text": "step2/text.md"
+      },
+      {
+        "title": "Configuring the MySQL database for Zabbix",
+        "text": "step3/text.md"
+      },
+      {
+        "title": "Configuring the Zabbix web interface",
+        "text": "step4/text.md"
+      }
+    ],
+    "finish": {
+      "title": "Finish",
+      "text": "finish/text.md",
+      "foreground": "finish/foreground.sh",
+      "background": "finish/background.sh"
+    },
+    "environment": {
+      "uilayout": "terminal",
+      "uisettings": "bash"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
