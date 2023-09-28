@@ -49,7 +49,7 @@ Search '# DBPassword=' line, uncomment and set up, click "i" to edit
 ```
 DBPassword=Pa$$word2
 ```
-Click "Esc", ":" and "wq" to save and exit
+Click "**Esc**", "**:**" and "**wq**" to save and exit
 
 * Click the [link to open the page]({{TRAFFIC_HOST1_8080}}) on port 8080 and copy the URL address to clipboard
 
@@ -67,6 +67,9 @@ server_name example.com;
 ```
 
 ![Picture 23](./nginxConf.png)
+
+Click "**Esc**", "**:**" and "**wq**" to save and exit
+
 
 * Restart PHP-FPM to apply new settings
 ```

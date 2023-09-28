@@ -6,8 +6,8 @@ The goal of this assignment is to set up the Zabbix server.
 1. Installation of the MySQL database.
 2. Configuring the MySQL database for Zabbix.
 3. Installing the Zabbix server.
-4. Configuring the Zabbix web interface.
-5. Zabbix Web Monitoring.
+4. Start using Zabbix.
+5. Configuring Users.
 
 Zabbix is an enterprise-class open source distributed monitoring solution.
 
