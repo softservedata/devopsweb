@@ -45,7 +45,7 @@ sudo vi /etc/zabbix/zabbix_server.conf
 
 ![Picture 21](./dbpassword.png)
 
-Search '# DBPassword=' line, uncomment and set up, click "i" to edit 
+Search '# DBPassword=' line, uncomment and set up, click "**i**" to edit 
 ```
 DBPassword=Pa$$word2
 ```

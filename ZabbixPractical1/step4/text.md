@@ -10,19 +10,33 @@ Access to all menu sections will be granted.
 
 * To view information about users, go to Users/Users.
 
+![Picture 42](./menuUsers.png)
+
 ![Picture 42](./listUsers.png)
 
 
-* To add a new user, click on Create user.
-  In the new user form, make sure to add your user to one of the existing user groups, for example 'Zabbix administrators'.
+* To add a new user, click on the "Create user" button.
 
-![Picture 43](./createUser.png)
+![Picture 42](./createUser.png)
+
+* In the new user form, make sure to add your user to one of the existing user groups, for example 'Zabbix administrators'.
+
+![Picture 43](./createUserForm.png)
+
+![Picture 43](./zabbixAdministrators.png)
+
+		* On tab "Permissions", add the "admin role"
+
+		![Picture 43](./adminRole.png)
+
+		![Picture 43](./userRoles.png)
 
 All mandatory input fields are marked with a red asterisk.
 
-
 * By default, new users have no media (notification delivery methods) defined for them.
   To create one, go to the 'Media' tab and click on Add.
+
+![Picture 44](./mediaTab.png)
 
 ![Picture 44](./addMedia.png)
 
