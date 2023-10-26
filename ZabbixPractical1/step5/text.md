@@ -5,7 +5,7 @@
 
 ![Picture 501](./zabbixNewUserSignin.png)
 
-##Congratulations, you have created a new user for Zabbix
+## Congratulations, you have created a new user for Zabbix
 
 ![Picture 502](./zabbixNewUser.png)
 
