@@ -24,6 +24,10 @@
       {
         "title": "Configuring Users",
         "text": "step4/text.md"
+      },
+      {
+        "title": "Sign In as a new user",
+        "text": "step5/text.md"
       }
     ],
     "finish": {

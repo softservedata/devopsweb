@@ -38,12 +38,14 @@ sudo zcat /usr/share/zabbix-sql-scripts/mysql/server.sql.gz | mysql --default-ch
 ```{{exec}}
 >Please wait for the script to complete (2-5 minutes).
 
+![Picture 21](./importSchema.png)
+
 * Configure the database for Zabbix server. Edit file **/etc/zabbix/zabbix_server.conf**
 ```
 sudo vi /etc/zabbix/zabbix_server.conf
 ```{{exec}}
 
-![Picture 21](./dbpassword.png)
+![Picture 22](./dbpassword.png)
 
 Search '# DBPassword=' line, uncomment and set up, click "**i**" to edit 
 ```
@@ -53,7 +55,7 @@ Click "**Esc**", "**:**" and "**wq**" to save and exit
 
 * Click the [link to open the page]({{TRAFFIC_HOST1_8080}}) on port 8080 and copy the URL address to clipboard
 
-![Picture 22](./serverName.png)
+![Picture 23](./serverName.png)
 
 * Configure PHP for Zabbix frontend. Edit file **/etc/zabbix/nginx.conf**
 ```
@@ -66,7 +68,7 @@ listen 8080;
 server_name example.com;
 ```
 
-![Picture 23](./nginxConf.png)
+![Picture 24](./nginxConf.png)
 
 Click "**Esc**", "**:**" and "**wq**" to save and exit
 
@@ -94,16 +96,16 @@ sudo systemctl restart nginx
 
 It's also possible to access ports using the top-right navigation in the terminal.
 
-![Picture 24](./navigationPanel.png)
+![Picture 25](./navigationPanel.png)
 
 Or you can click the link to that page
 
-![Picture 25](./openPort.png)
+![Picture 26](./openPort.png)
 
 [ACCESS PORTS]({{TRAFFIC_SELECTOR}})
 
 You should see the Zabbix start page
 
-![Picture 26](./zabbixTitle.png)
+![Picture 27](./zabbixTitle.png)
 
 <br/>
