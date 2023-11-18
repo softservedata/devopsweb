@@ -1,4 +1,4 @@
-# Creating a test notification
+# Monitoring free space
 
 
 > Zabbix can monitor the amount of free disk space. Create a temporary file so that it is large enough to trigger a file system usage message

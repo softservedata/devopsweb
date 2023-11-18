@@ -10,14 +10,16 @@ Access to all menu sections will be granted.
 > Media type information contains general instructions for using a medium as delivery channel for notifications.
   Specific details, such as the individual e-mail addresses to send a notification to are kept with individual users.
 
-* In the "Alerts"/"Media types" section you can configure and maintain media type information.
+> In the "Alerts"/"Media types" section you can configure and maintain media type information.
   A listing of existing media types with their details is displayed.
+
+* Double-click at the word "Disable", for example, in the email line
 
 ![Picture 402](./alertsMediaTypes.png)
 
-* You can configure and enable "media type" click on the "media type" link.
+> You can configure and enable "media type" click on the "media type" link.
 
-> To configure a new media type, click on the Create media type button in the top right-hand corner.
+* If you want to configure a new media type, click on the Create media type button in the top right-hand corner (not now).
 
 ![Picture 403](./createMediaType.png)
 
@@ -39,6 +41,10 @@ Access to all menu sections will be granted.
 
 ![Picture 407](./createUserForm.png)
 
+* To add a group, click on "Select"
+
+![Picture 407a](./selectGroup.png)
+
 * In the new user form, make sure to add your user to one of the existing user groups, for example 'Zabbix administrators'.
 
 ![Picture 408](./zabbixAdministrators.png)
@@ -56,9 +62,11 @@ Access to all menu sections will be granted.
 > You can specify a time period when the medium will be active, by default a medium is always active.
   You can also customize trigger severity levels for which the medium will be active.
 
-* Click on Add to save the medium, then go to the Permissions tab.
+* Click on "Add" button to save the medium.
 
 ![Picture 411](./mediaEmail.png)
+
+* And then go to the Permissions tab.
 
 ![Picture 412](./userPermissions.png)
 
@@ -83,18 +91,30 @@ Access to all menu sections will be granted.
 
 ![Picture 416](./createUserFinish.png)
 
+
 * By default, a new user has no permissions to access hosts and templates.
   To grant the user to rights, click on the group of the user in the Groups column (for example, 'Zabbix administrators').
-  In the group properties form, go to the Host permissions tab to assign permissions to host groups.
+
+![Picture 416a](./groupsColumn.png)
+
+
+* In the group properties form, go to the Host permissions tab to assign permissions to host groups.
 
 ![Picture 417](./hostPermissions.png)
 
-> For example, mark the checkbox next to 'Linux servers', then click Select.
+* Click the "Select" button to open the "Host Templates" window
+
+![Picture 417a](./hostTemplates.png)
+
+
+* Please check the box next to "Linux Servers" and then click "Select" button.
+
+![Picture 418](./hostGroup.png)
 
 * Click the 'Read' button to set the permission level and then Add to add the group to the list of permissions.
   In the user group properties form, click Update.
 
-![Picture 418](./hostGroup.png)
+![Picture 418a](./updatePermissions.png)
 
 
 * Sign out of the administrator account

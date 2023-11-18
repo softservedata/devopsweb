@@ -62,7 +62,7 @@ Click "**Esc**", "**:**" and "**wq**" to save and exit
 sudo vi /etc/zabbix/nginx.conf
 ```{{exec}}
 
-Uncomment and set 'listen' and 'server_name' directives.
+Uncomment and set 'listen' and 'server_name' directives. Press "**i**" to edit the file
 ```
 listen 8080;
 server_name example.com;
@@ -91,9 +91,7 @@ For this example, leave the value at 127.0.0.1
 
 ![Picture 24b](./serverActive.png)
 
-Save and close the file.
-
-Click "**Esc**", "**:**" and "**wq**" to save and exit
+Do not modify the contents of the file. Click "**Esc**", "**:**" and "**q!**" to exit.
 
 * The agent will listen on port 10050 to connect to the server. Setup a UFW to allow connections to this port
 ```
@@ -122,7 +120,9 @@ sudo systemctl restart nginx
 sudo systemctl status zabbix-agent
 ```{{exec}}
 
-> The agent is ready to send data to the Zabbix server. But to use it, you need to connect to it from the server's web console.
+![Picture 24c](./agentActive.png)
+
+> The agent is ready to send data to the Zabbix server. To use it, you must connect to it from the server's web console.
 
 
 * Open Zabbix UI web page

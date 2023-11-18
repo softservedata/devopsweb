@@ -1,5 +1,5 @@
 {
-  "title": "Zabbix Assignment",
+  "title": "Zabbix Monitoring",
   "description": "Tutorial for installing and configuring Zabbix. Practical task",
   "difficulty": "beginner",
   "details": {
@@ -34,7 +34,7 @@
         "text": "step6/text.md"
       },
       {
-        "title": "Creating a test notification",
+        "title": "Monitoring free space",
         "text": "step7/text.md"
       }
     ],
