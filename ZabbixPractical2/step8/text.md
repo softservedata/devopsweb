@@ -93,7 +93,7 @@ Zabbix activates a warning about the amount of free space on the disk.
 
 * Click "Monitoring", then "Hosts" in the left control panel.
 
-![Picture 819](./monitoringDetail.png)
+![Picture 819](./monitoringDetails.png)
 
 * You can see the graph by clicking on the link in the host line.
 
