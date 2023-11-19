@@ -32,7 +32,7 @@ This will present us with a host configuration form.
 
 ![Picture 706](./selectHostGroup.png)
 
-* Check the box next to "Linux servers" and "Zabbix servers" and then click "Select" button
+* Check the box next to "Linux servers" and "Zabbix servers" and then click "Select" button.
 
 ![Picture 707](./serversLinuxZabbix.png)
 
@@ -66,17 +66,29 @@ Please check the box next to "Linux by Zabbix Agent" from the drop-down list and
 
 ![Picture 714](./myHostAdd.png)
 
+* To avoid a conflict, disable the "Zabbix server". Check the box next to "Zabbix server" and click "Disable" button
+
+![Picture 715](./zabbixServerDisable.png)
+
 * You will see the new host listed.
 
-![Picture 715](./hostsAdded.png)
+![Picture 716](./hostsAdded.png)
 
-
+![Picture 717](./iconZabbixGreen.png) - host is available, a metric check has been successful.
 
 
 > Wait a minute and reload the page.
 
+* Click "Monitoring" and then "Hosts" in the left control panel.
+
+![Picture 718](./monitoringHosts.png)
+
+* Click on the host name "My_Host" and select from the context menu "Latest data"
+
+![Picture 719](./hostContextMenu.png)
+
 * Check whether the data from the agent appeared on the Zabbix server.
 
-![Picture 716](./agentActive.png)
+![Picture 720](./agentActive.png)
 
 <br/>
