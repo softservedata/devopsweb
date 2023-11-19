@@ -5,29 +5,41 @@
 
 * Consider the template "Linux by Zabbix agent". Please, Click "Data collection", then "Templates" in the left control panel.
 
-![Picture 801](./_.png)
+![Picture 801](./dataCollectionTemplates.png)
 
 * Find the "Linux by Zabbix agent" template in the list and click on it.
 
-![Picture 801](./_.png)
+![Picture 801](./linuxZabbixAgentTemplate.png)
+
+* You will receive the following form.
+
+![Picture 801](./linuxZabbixAgentForm.png)
 
 * Сreate a new item in the template. Click on the tab "Items" and on the "Create item" button in the upper right corner.
 
-![Picture 801](./_.png)
+![Picture 801](./createNewItem.png)
 
-* Add a new item name "Free Disk Space in percent", Type of information "Numeric (float)", Units "%", Update interval 1m, Key **vfs.fs.size[/,pfree]** and click "Add" button to save.
+* Add a new item name "Free Disk Space in percent", Type of information "Numeric (float)", Units "%", Update interval 1m, Key **vfs.fs.size[/,pfree]**
 
-![Picture 801](./_.png)
+![Picture 801](./freeDiskSpaceItem.png)
 
-* Let's create a trigger, if there is less than 20% free disk space. Go to the "Triggers" tab and click on the "Create Trigger" button in the upper right corner.
+* Click "Add" button to save.
 
-![Picture 801](./_.png)
+![Picture 801](./freeDiskSpaceAdd.png)
 
-Add a new trigger name "Less than 20% free on disk", check the box "Allow manual close", Expression **last(vfs.fs.size[/,pfree])<20** and click "Add" button to save.
+* Let's create a trigger, if there is less than 20% free disk space. Go to the "Triggers" tab and click on the "Create trigger" button in the upper right corner.
 
-![Picture 801](./_.png)
+![Picture 801](./createTrigger.png)
 
-* Let's create a graph to display free disk space. Add graph name "Less than 20% free on disk" and attach the created item by clicking the "Add" link.
+* Add a new trigger name "Less than 20% free on disk", check the box "Allow manual close", Expression **last(/My_Host/vfs.fs.size[/,pfree])<20** and click "Add" button to save.
+
+![Picture 801](./freeDiskSpaceTrigger.png)
+
+* Let's create a graph to display free disk space. Go to the "Graphs" tab and click on the "Create graph" button in the upper right corner.
+
+![Picture 801](./createGraph.png)
+
+* Add graph name "Disk space is available" and attach the created item by clicking the "Add" link.
 
 ![Picture 801](./_.png)
 
