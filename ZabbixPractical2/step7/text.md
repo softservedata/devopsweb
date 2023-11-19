@@ -3,19 +3,13 @@
 
 > Installing the agent on the host is half of the process. Each host you want to monitor must be registered on the Zabbix server.
 
-
-
-++++++
-
-
-
 * After sign in, click "Data collection", then "Hosts" in the left control panel.
 
 ![Picture 701](./configurationHosts.png)
 
 * Then click the "Create host" button in the upper right corner of the screen.
 
-![Picture 701](./createHost.png)
+![Picture 702](./createHost.png)
 
 This will present us with a host configuration form.
 
@@ -26,7 +20,7 @@ This will present us with a host configuration form.
 
 ![Picture 703](./addHostName.png)
 
-* Click on the link "add" below "Interfaces" and select an agent
+* Click on the link "add" below "Interfaces" and select an agent.
 
 ![Picture 704](./selectAgent.png)
 
@@ -34,7 +28,7 @@ This will present us with a host configuration form.
 
 ![Picture 705](./agentLocal.png)
 
-* Select one or several existing groups by clicking "Select" button
+* Select one or several existing groups by clicking "Select" button.
 
 ![Picture 706](./selectHostGroup.png)
 
@@ -42,33 +36,47 @@ This will present us with a host configuration form.
 
 ![Picture 707](./serversLinuxZabbix.png)
 
-A host can be in several groups.
+* A host can be in several groups.
 
-* Before adding a group, click the Templates tab.
+![Picture 708](./severalHostGroups.png)
 
-![Picture 708](./hostTemplates.png)
+* Before adding a group, click "Select" button next to the "Templates".
 
+![Picture 709](./hostTemplates.png)
 
-> Enter Template OS Linux by Zabbix agent​​ in the search field​​ and then select it from the list to add this template to the host.
-There are many ready-made templates. Get to know them and choose the one that meets your requirements.
+* In the search field, type "Templates/" on select "Templates/Operating system".
 
+![Picture 710](./selectTemplateOS.png)
 
-* Then go to the Encryption tab. Select No Encryption for Host Connections (Incoming Host Connections) and Host Connections​​ (Outgoing Host Connections)
+> There are many ready-made templates. Get to know them and choose the one that meets your requirements.
 
-![Picture 709](./hostEncryption.png)
+Please check the box next to "Linux by Zabbix Agent" from the drop-down list and press "Select" button.
 
-Click the "Add" button at the bottom of the form to create a host.
+![Picture 711](./linuxZabbixAgent.png)
 
+* You should get the following form.
+
+![Picture 712](./templateFormAgent.png)
+
+* Then go to the "Encryption" tab. Select "No Encryption" for Host Connections (Incoming Host Connections) and Host Connections​​ (Outgoing Host Connections).
+
+![Picture 713](./encryptionTab.png)
+
+* Click the "Add" button at the bottom of the form to create a host.
+
+![Picture 714](./myHostAdd.png)
 
 * You will see the new host listed.
 
-![Picture 710](./hostsAdded.png)
+![Picture 715](./hostsAdded.png)
+
+
+
 
 > Wait a minute and reload the page.
 
 * Check whether the data from the agent appeared on the Zabbix server.
 
-![Picture 711](./agentActive.png)
-
+![Picture 716](./agentActive.png)
 
 <br/>

@@ -66,7 +66,7 @@ Access to all menu sections will be granted.
 
 ![Picture 412](./mediaEmail.png)
 
-* And then go to the Permissions tab. Click "Select" Button
+* And then go to the "Permissions" tab. Click "Select" Button
 
 ![Picture 413](./userPermissions.png)
 

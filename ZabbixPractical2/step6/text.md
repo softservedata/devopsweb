@@ -5,7 +5,7 @@
 
 ![Picture 601](./zabbixNewUserSignin.png)
 
-* You are logged in to the Zabbix server as a new user
+* You are logged in to the Zabbix server as a new user. You should get the following form.
 
 ![Picture 602](./zabbixNewUser.png)
 
