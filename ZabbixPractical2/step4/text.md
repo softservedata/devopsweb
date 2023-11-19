@@ -19,7 +19,7 @@ Access to all menu sections will be granted.
 
 > You can configure and enable "media type" click on the "media type" link.
 
-* If you want to configure a new media type, click on the Create media type button in the top right-hand corner (not now).
+* If you want to configure a new media type, click on the Create media type button in the top right-hand corner (**not now**).
 
 ![Picture 403](./createMediaType.png)
 
@@ -43,86 +43,106 @@ Access to all menu sections will be granted.
 
 * To add a group, click on "Select"
 
-![Picture 407a](./selectGroup.png)
+![Picture 408](./selectGroup.png)
 
 * In the new user form, make sure to add your user to one of the existing user groups, for example 'Zabbix administrators'.
 
-![Picture 408](./zabbixAdministrators.png)
+![Picture 409](./zabbixAdministrators.png)
 
 > All mandatory input fields are marked with a red asterisk.
 
 * By default, new users have no media (notification delivery methods) defined for them.
 
-![Picture 409](./mediaTab.png)
+![Picture 410](./mediaTab.png)
 
 * To create one, go to the 'Media' tab and click on Add.
 
-![Picture 410](./addMedia.png)
+![Picture 411](./addMedia.png)
 
 > You can specify a time period when the medium will be active, by default a medium is always active.
   You can also customize trigger severity levels for which the medium will be active.
 
-* Click on "Add" button to save the medium.
+* Click on "Add" button to save the medium. You can see next form.
 
-![Picture 411](./mediaEmail.png)
+![Picture 412](./mediaEmail.png)
 
-* And then go to the Permissions tab.
+* And then go to the Permissions tab. Click "Select" Button
 
-![Picture 412](./userPermissions.png)
+![Picture 413](./userPermissions.png)
 
-* Permissions tab has a mandatory field Role.
+> Permissions tab has a mandatory field Role.
   The role determines which frontend elements the user can view and which actions he is allowed to perform.
-  Press Select and select one of the roles from the list.
 
-![Picture 413](./adminRole.png)
-
-* For example, select Admin role to allow access to all Zabbix frontend sections, except Administration.
+* Select one of the roles from the list and press Select button.
 
 ![Picture 414](./userRoles.png)
+
+> For this example, select Admin role to allow access to all Zabbix frontend sections, except Administration.
+
+* You have been granted the administrator role. You can see next form.
+
+![Picture 415](./adminRole.png)
+
 
 > Later on, you can modify permissions or create more user roles.
   Upon selecting a role, permissions will appear in the same tab.
 
 * Adding permissions
 
-![Picture 415](./tabPermission.png)
+![Picture 416](./tabPermission.png)
 
 * Click the "Add" button to finish creating a new user
 
-![Picture 416](./createUserFinish.png)
+![Picture 417](./createUserFinish.png)
 
 
 * By default, a new user has no permissions to access hosts and templates.
   To grant the user to rights, click on the group of the user in the Groups column (for example, 'Zabbix administrators').
 
-![Picture 416a](./groupsColumn.png)
+![Picture 418](./groupsColumn.png)
 
+* In the group properties form, go to the "Host permissions" tab to assign permissions of host groups.
 
-* In the group properties form, go to the Host permissions tab to assign permissions to host groups.
-
-![Picture 417](./hostPermissions.png)
+![Picture 419](./hostPermissions.png)
 
 * Click the "Select" button to open the "Host Templates" window
 
-![Picture 417a](./hostTemplates.png)
+![Picture 420](./hostPermissionsSelect.png)
+
+* Please check all the boxes and then click the "Select" button.
+
+![Picture 421](./hostGroups.png)
+
+* Click the 'Read-write' button to set the permission level and then "Add" to add the group to the list of permissions.
+
+![Picture 422](./updatePermissions.png)
+
+* You should get the following form.
+
+![Picture 423](./permissionsReadWrite.png)
+
+* Please, go to the "Template permissions" tab to assign permissions of template groups and click "Select" button.
+
+![Picture 424](./templatePermissions.png)
+
+* Please check all the boxes and then click the "Select" button.
+
+![Picture 425](./templateGroups.png)
+
+* Click the 'Read-write' button to set the permission level and then "Add" to add the group to the list of permissions.
+
+![Picture 426](./updateTemplate.png)
+
+* In the "User groups" properties form you should get the following form. Click Update button to make changes.
+
+![Picture 427](./templateReadWrite.png)
 
 
-* Please check the box next to "Linux Servers" and then click "Select" button.
+* Click "User groups" in the left control panel, check the box next to "Zabbix administrators" and then click "Select" to enable group.
 
-![Picture 418](./hostGroup.png)
-
-* Click the 'Read' button to set the permission level and then Add to add the group to the list of permissions.
-  In the user group properties form, click Update.
-
-![Picture 418a](./updatePermissions.png)
+![Picture 428](./enableUserGroups.png)
 
 
-* Sign out of the administrator account
-
-![Picture 419](./signoutAdmin.png)
-
-* You may try to log in using the credentials of the new user.
-
-![Picture 420](./zabbixUserSignin.png)
+Click "Next" to configure hosts and template groups.
 
 <br/>

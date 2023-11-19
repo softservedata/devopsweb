@@ -26,16 +26,20 @@
         "text": "step4/text.md"
       },
       {
-        "title": "Sign In as a new user",
+        "title": "Configuring Zabbix Server",
         "text": "step5/text.md"
       },
       {
-        "title": "Adding a new host to the Zabbix server",
+        "title": "Sign In as a new user",
         "text": "step6/text.md"
       },
       {
-        "title": "Monitoring free space",
+        "title": "Adding a new host to the Zabbix server",
         "text": "step7/text.md"
+      },
+      {
+        "title": "Monitoring free space",
+        "text": "step8/text.md"
       }
     ],
     "finish": {

@@ -38,14 +38,14 @@ sudo zcat /usr/share/zabbix-sql-scripts/mysql/server.sql.gz | mysql --default-ch
 ```{{exec}}
 > Please wait for the script to complete (2-5 minutes).
 
-![Picture 21](./importSchema.png)
+![Picture 201](./importSchema.png)
 
 * Configure the database for Zabbix server. Edit file **/etc/zabbix/zabbix_server.conf**
 ```
 sudo vi /etc/zabbix/zabbix_server.conf
 ```{{exec}}
 
-![Picture 22](./dbpassword.png)
+![Picture 202](./dbpassword.png)
 
 Search '# DBPassword=' line, uncomment and set up, click "**i**" to edit 
 ```
@@ -55,7 +55,7 @@ Click "**Esc**", "**:**" and "**wq**" to save and exit
 
 * Click the [link to open the page]({{TRAFFIC_HOST1_8080}}) on port 8080 and copy the URL address to clipboard
 
-![Picture 23](./serverName.png)
+![Picture 203](./serverName.png)
 
 * Configure PHP for Zabbix frontend. Edit file **/etc/zabbix/nginx.conf**
 ```
@@ -68,7 +68,7 @@ listen 8080;
 server_name example.com;
 ```
 
-![Picture 24](./nginxConf.png)
+![Picture 204](./nginxConf.png)
 
 Click "**Esc**", "**:**" and "**wq**" to save and exit
 
@@ -81,7 +81,7 @@ sudo vi /etc/zabbix/zabbix_agentd.conf
 Change the IP address of your Zabbix server.
 For this example, leave the value at 127.0.0.1
 
-![Picture 24a](./serverIP.png)
+![Picture 205](./serverIP.png)
 
 
 > By default, the Zabbix server connects to the agent. But for some checks (for example, for monitoring logs) a reverse connection is required. For correct operation, you need to specify the address of the Zabbix server and the unique name of the host.
@@ -89,7 +89,7 @@ For this example, leave the value at 127.0.0.1
 Find the section that configures active checks and update "ServerActive" value.
 For this example, leave the value at 127.0.0.1
 
-![Picture 24b](./serverActive.png)
+![Picture 206](./serverActive.png)
 
 Do not modify the contents of the file. Click "**Esc**", "**:**" and "**q!**" to exit.
 
@@ -120,7 +120,7 @@ sudo systemctl restart nginx
 sudo systemctl status zabbix-agent
 ```{{exec}}
 
-![Picture 24c](./agentActive.png)
+![Picture 207](./agentActive.png)
 
 > The agent is ready to send data to the Zabbix server. To use it, you must connect to it from the server's web console.
 
@@ -131,16 +131,16 @@ sudo systemctl status zabbix-agent
 
 It's also possible to access ports using the top-right navigation in the terminal.
 
-![Picture 25](./navigationPanel.png)
+![Picture 208](./navigationPanel.png)
 
 Or you can click the link to that page
 
-![Picture 26](./openPort.png)
+![Picture 209](./openPort.png)
 
 [ACCESS PORTS]({{TRAFFIC_SELECTOR}})
 
 You should see the Zabbix start page
 
-![Picture 27](./zabbixTitle.png)
+![Picture 210](./zabbixTitle.png)
 
 <br/>

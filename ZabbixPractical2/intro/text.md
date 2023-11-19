@@ -1,6 +1,6 @@
-## Zabbix Assignment
+## Zabbix Monitoring
 
-The goal of this assignment is to set up the Zabbix server.
+The purpose of this task is to configure monitoring using Zabbix.
 
 >Task
 1. Installation of the MySQL database.
