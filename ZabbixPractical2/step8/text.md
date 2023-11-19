@@ -72,7 +72,7 @@ df -h
 
 * The df command will report disk space usage on your filesystem, and -h will provide readable output. The result will look something like this:
 
-![Picture 816](./freeSpace.png)
+![Picture 816](./freeDiskSpace.png)
 
 In this case, the free space is 14G.
 
