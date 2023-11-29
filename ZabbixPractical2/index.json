@@ -43,7 +43,7 @@
       }
     ],
     "finish": {
-      "title": "Finish",
+      "title": "Finish. Task",
       "text": "finish/text.md",
       "foreground": "finish/foreground.sh",
       "background": "finish/background.sh"

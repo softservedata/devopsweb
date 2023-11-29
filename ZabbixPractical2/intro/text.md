@@ -11,7 +11,7 @@ The purpose of this task is to configure monitoring using Zabbix.
 6. Sign in as a new user.
 7. Adding a new host to the Zabbix server
 8. Monitoring free space on the disk.
-9. Save the result of your work in the tracking system.
+9. Perform the task and save the result of your work in the tracking system.
 
 Zabbix is an enterprise-class open source distributed monitoring solution.
 
