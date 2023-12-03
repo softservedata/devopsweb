@@ -1,0 +1,47 @@
+{
+  "title": "SonarCloud analysis task",
+  "description": "Tutorial for setting up SonarCloud for analyzing Java Spring Boot application. Practical task",
+  "difficulty": "beginner",
+  "details": {
+    "intro": {
+      "text": "intro/text.md",
+      "foreground": "intro/foreground.sh",
+      "background": "intro/background.sh"
+    },
+    "steps": [
+      {
+        "title": "SonarCloud Configuration. Create Organization",
+        "text": "step1/text.md"
+      },
+      {
+        "title": "SonarCloud Configuration. Create Project",
+        "text": "step2/text.md"
+      },
+      {
+        "title": "SonarCloud Configuration. Generate new Token",
+        "text": "step3/text.md"
+      },
+      {
+        "title": "Establishing project dependencies",
+        "text": "step4/text.md"
+      },
+      {
+        "title": "Setup Java application",
+        "text": "step5/text.md"
+      }
+    ],
+    "finish": {
+      "title": "Finish",
+      "text": "finish/text.md",
+      "foreground": "finish/foreground.sh",
+      "background": "finish/background.sh"
+    },
+    "environment": {
+      "uilayout": "terminal",
+      "uisettings": "bash"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

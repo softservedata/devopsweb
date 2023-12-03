@@ -65,7 +65,7 @@ mvn test
 sudo apt remove -y maven
 ```{{exec}}
 
-> You can check for the newest version here https://maven.apache.org/download.cgi
+> You can check for the latest Maven version here https://maven.apache.org/download.cgi
 
 ![mavenLatest](./mavenLatest.png)
 
