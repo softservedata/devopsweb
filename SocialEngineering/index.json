@@ -1,0 +1,39 @@
+{
+  "title": "Social Engineering. Tools",
+  "description": "Tutorial for installing and configuring Social Engineering Toolkit. Practical task",
+  "difficulty": "beginner",
+  "details": {
+    "intro": {
+      "text": "intro/text.md",
+      "foreground": "intro/foreground.sh",
+      "background": "intro/background.sh"
+    },
+    "steps": [
+      {
+        "title": "Installation of the Social Engineering Toolkit",
+        "text": "step1/text.md"
+      },
+      {
+        "title": "Setup a Phishing Page",
+        "text": "step2/text.md"
+      },
+      {
+        "title": "Checking the Phishing Page",
+        "text": "step3/text.md"
+      }
+    ],
+    "finish": {
+      "title": "Finish",
+      "text": "finish/text.md",
+      "foreground": "finish/foreground.sh",
+      "background": "finish/background.sh"
+    },
+    "environment": {
+      "uilayout": "terminal",
+      "uisettings": "bash"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
