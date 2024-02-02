@@ -10,7 +10,7 @@
     },
     "steps": [
       {
-        "title": "Update Python dependencies",
+        "title": "Python dependency update",
         "text": "step1/text.md"
       },
       {
