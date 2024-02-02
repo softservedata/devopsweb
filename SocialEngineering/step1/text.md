@@ -1,76 +1,50 @@
-# Installation of the Social Engineering Toolkit
+# Update Python dependencies
 
->There are various steps that we have to use in order to install the social engineering toolkit.
+>Ubuntu come with Python installed by default, but, it are usually not the latest.
 
-Step 1: First, we have to open the Kali Linux Terminal and move to Desktop.
+>First, let's update some packages.
 
 
-* Update the package index
+* python3-openssl is broken on ubuntu, incompatible with python3-cryptography.
+Remove these apt packages without removing their dependencies
+```
+sudo dpkg -r --force-depends python3-openssl python3-cryptography
+```{{exec}}
+
+* You should see the following
+
+![removePython3Openssl19](./removePython3Openssl19.png)
+
+* Install latest version of these packages into system
+```
+sudo pip3 install pyopenssl cryptography
+```{{exec}}
+
+* You should see the following
+
+![installedPyopenssl24](./installedPyopenssl24.png)
+
+* and run
+```
+sudo apt install -y --fix-missing python3-openssl python3-cryptography
+```{{exec}}
+
+
+* Installing python-pyasn1 package on Ubuntu
 ```
 sudo apt update
 ```{{exec}}
 
-* Install the MySQL server.
+* and run
 ```
-sudo apt install -y mysql-server
+sudo apt install python-pyasn1
 ```{{exec}}
 
-* Run the wizard
-```
-sudo mysql_secure_installation
-```{{exec}}
+* You should see the following
 
-* Enter the following values
-
->VALIDATE PASSWORD component? : No
-
->Remove anonymous users? (Press y|Y for Yes, any other key for No) : Yes
-
->Disallow root login remotely? : Yes
-
->Remove test database and access to it? : Yes
-
->Reload privilege tables now? (Press y|Y for Yes, any other key for No) : Yes
+![updatePythonPyasn1](./updatePythonPyasn1.png)
 
 
-* Connecting to MySQL using a blank password.
-```
-sudo mysql
-```{{exec}}
-
-* Select the database mysql
-```
-use mysql;
-```{{exec}}
-
-* Set the password **Pa$$word1** for the root user
-```
-alter user 'root'@'localhost' identified with caching_sha2_password by 'Pa$$word1';
-```{{exec}}
-
-* Create a Zabbix database with support for UTF-8 characters
-```
-create database zabbix character set utf8mb4 collate utf8mb4_bin;
-```{{exec}}
-
-* Create Zabbix user with password 'Pa$$word2'
-```
-create user 'zabbix'@'localhost' identified by 'Pa$$word2';
-```{{exec}}
-
-* Grant all privileges for 'zabbix' user
-```
-grant all on *.* to 'zabbix'@'localhost';
-```{{exec}}
-
-* Reload the grant tables from the disk and clear the cache for faster access
-```
-flush privileges;
-```{{exec}}
-
-* Quit from MySQL Command-Line Client
-```
-exit;
-```{{exec}}
+>Now we are ready to install SEToolkit on our system.
 
 <br/>

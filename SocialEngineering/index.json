@@ -10,16 +10,20 @@
     },
     "steps": [
       {
-        "title": "Installation of the Social Engineering Toolkit",
+        "title": "Update Python dependencies",
         "text": "step1/text.md"
       },
       {
-        "title": "Setup a Phishing Page",
+        "title": "Installation of the Social Engineering Toolkit",
         "text": "step2/text.md"
       },
       {
-        "title": "Checking the Phishing Page",
+        "title": "Setup a Phishing Page",
         "text": "step3/text.md"
+      },
+      {
+        "title": "Checking the Phishing Page",
+        "text": "step4/text.md"
       }
     ],
     "finish": {
