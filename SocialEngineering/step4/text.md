@@ -49,7 +49,7 @@ These are the features of the working of the "killercoda" site.
 ![codaRestart](./codaRestart.png)
 
 
-* You should see the **following error page.**
+* If all is well you should see the **following error page.**
 This message looks like a network error.
 
 ![badGateway](./badGateway.png)
