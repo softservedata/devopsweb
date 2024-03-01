@@ -9,13 +9,13 @@
 
 * It's also possible to access ports using the top-right navigation in the terminal.
 
-![Picture 25](./navigationPanel.png)
+![navigationPanel](./navigationPanel.png)
 
 ## Click here to [ACCESS PORTS]({{TRAFFIC_SELECTOR}})
 
 * Or you can click the link on this page
 
-![Picture 26](./openPort.png)
+![openPort](./openPort.png)
 
 
 * You should see the Phishing page.
@@ -28,9 +28,20 @@ For example type Email: "MyName" and Password: "Qwerty_1234".
 
 ![signinAccount](./signinAccount.png)
 
-* Since the HTTP protocol is used, please, continue the request by pressing the "Send anyway" button.
+
+* Please wait 1 minute.
+  Since the HTTP protocol is used, please, continue the request by pressing the "Send anyway" button.
 
 ![sendAnyway](./sendAnyway.png)
+
+
+* If you got the following page, you need to reconfigure your Social Engineering Toolkit.
+These are the features of the working of the "killercoda" site.
+
+![siteNotReached](./siteNotReached.png)
+
+> Close the browser and start again.
+
 
 * You should see the following error page.
 This message looks like a network error.

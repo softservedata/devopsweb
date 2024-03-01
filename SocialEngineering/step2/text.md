@@ -41,6 +41,13 @@ sudo pip3 install -r requirements.txt
 
 ![installationSEToolkit](./installationSEToolkit.png)
 
+
+* Ubuntu may not work properly with the latest version of python on the "killercoda" site.
+Please ignore the error "ldap3 2.9.1 has requirement pyasn1>=0.4.6"
+
+![pyasnError](./pyasnError.png)
+
+
 * All the requirements have been downloaded to our setoolkit.
 Now  to install the requirements we have downloaded.
 ```

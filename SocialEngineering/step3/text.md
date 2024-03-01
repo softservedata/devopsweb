@@ -31,6 +31,10 @@ We'll go with option 3, which is a credential harvester attack method.
 
 ![serverName](./serverName.png)
 
+* Right-click in the console and select Paste.
+
+![rightClick](./rightClick.png)
+
 * Usually the IP address do not changed.
 However, on our site you need to enter the address from the clipboard and press enter to continue.
 
