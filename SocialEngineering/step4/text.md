@@ -29,8 +29,11 @@ For example type Email: "MyName" and Password: "Qwerty_1234".
 ![signinAccount](./signinAccount.png)
 
 
-* Please wait 1 minute.
-  Since the HTTP protocol is used, please, continue the request by pressing the "Send anyway" button.
+* Please **wait 1 minute.**
+
+![wait1min](./wait1min.png)
+
+* Since the HTTP protocol is used, please, continue the request by pressing the "Send anyway" button.
 
 ![sendAnyway](./sendAnyway.png)
 
@@ -40,10 +43,13 @@ These are the features of the working of the "killercoda" site.
 
 ![siteNotReached](./siteNotReached.png)
 
-> Close the browser and start again.
+> Please, close the browser and start again.
+  You can go to the next page and click restart.
+
+![codaRestart](./codaRestart.png)
 
 
-* You should see the following error page.
+* You should see the **following error page.**
 This message looks like a network error.
 
 ![badGateway](./badGateway.png)

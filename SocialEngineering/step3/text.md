@@ -36,7 +36,7 @@ We'll go with option 3, which is a credential harvester attack method.
 ![rightClick](./rightClick.png)
 
 * Usually the IP address do not changed.
-However, on our site you need to enter the address from the clipboard and press enter to continue.
+However, on our site you need to enter the address from the clipboard and **press enter** to continue.
 
 ![setIPAddress](./setIPAddress.png)
 
