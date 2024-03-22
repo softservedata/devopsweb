@@ -43,8 +43,10 @@ These are the features of the working of the "killercoda" site.
 
 ![siteNotReached](./siteNotReached.png)
 
-> Please, close the browser and start again.
-  You can go to the next page and click restart.
+
+> In this case, press CTR+C and type 99 three times to return to BASH.
+  Run ./setoolkit again.
+  Otherwise, you can go to the last page and click restart..
 
 ![codaRestart](./codaRestart.png)
 
