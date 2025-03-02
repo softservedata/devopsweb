@@ -21,7 +21,7 @@ snap install amass
 ```{{exec}}
 <br>
 
-![Picture 07tab](assets/images/07tab.png)
+![Picture 07tab](./assets/images/07tab.png)
 <br>
 
 * Before starting using any tool we should check it's help options.

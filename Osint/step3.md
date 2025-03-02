@@ -13,11 +13,11 @@ Go to site `https://github.com/sundowndev/phoneinfoga`
 
 Click `Releases`<br>
 
-![Picture 03r](assets/images/03r.png)
+![Picture 03r](./assets/images/03r.png)
 
 And download `phoneinfoga_Linux_x86_64.tar.gz`<br>
 
-![Picture 03p](assets/images/03p.png)
+![Picture 03p](./assets/images/03p.png)
 
 For example, you can use version v2.11.0
 ```
