@@ -4,18 +4,16 @@ Shodan is a search engine for Internet-connected devices.
 Discover how internet intelligence can help you make better decisions. 
 The entire Shodan platform (crawling, IP lookups, searching, and data streaming) is available to developers.
 
-### Prerequisites: You must have the python3-pip python3-venv python3-wheel packages installed.
+> Prerequisites: You must have the python3-pip python3-venv python3-wheel packages installed.
 We installed them in the second step. If you skipped this step, run the commands
 ```
 cd ~/
 sudo apt update
 ```{{exec}}
-<br>
 
 ```
 sudo apt install python3-pip python3-venv python3-wheel
 ```{{exec}}
-<br>
 
 ```
 sudo apt install pipx
