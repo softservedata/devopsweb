@@ -15,6 +15,12 @@ Wait a few minutes...<br>
 __If after 10-15 seconds you don't see the download progress, open a new terminal and type the command there.__<br>
 <br>
 
+* Install snap
+```
+apt install snapd
+```{{exec}}
+<br>
+
 * And run command:
 ```
 snap install amass
@@ -46,6 +52,7 @@ __dns:__ Resolve DNS names at high performance.<br>
 ```
 amass enum -d softserveinc.com
 ```{{exec}}
+
 
 ```text
     Wait a few minutes...

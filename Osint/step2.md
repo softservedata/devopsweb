@@ -11,17 +11,21 @@ sudo apt install sherlock
 ```
 sherlock softserve --print-all
 ```
-> If you get this error message: "ERROR: Bad response while accessing data file URL"
-```https://raw.githubusercontent.com/
+> If you get this error message: "ERROR:
+Bad response while accessing data file URL"
+"https://raw.githubusercontent.com/
 sherlock-project/sherlock/master/
-sherlock/resources/data.json```
+sherlock/resources/data.json"
+
 ![Picture sherlock_error](./assets/images/sherlock_error.png)
-Please uninstall sherlock
+
+> Please uninstall sherlock
 ```
 sudo apt remove sherlock
 ```
 > and re-install the binary using pipx.
-Packages for ParrotOS and Ubuntu 24.04, appear to be broken.
+Packages for ParrotOS and Ubuntu 24.04,
+appear to be broken.
 
 
 ### Installing Sherlock
@@ -112,7 +116,8 @@ sherlock softserve -o ~/result.txt --print-all
 ```{{exec}}
 
 Wait a few minutes and open the file to see result...
-<img src="./assets/images/01.png" style="width: 500px; height: 500px;"><br>
+
+![Picture result_01](./assets/images/01.png)
 <br>
 
 * Searching with creating `csv` file.
@@ -121,7 +126,8 @@ sherlock softserve --csv
 ```{{exec}}
 
 Wait a few minutes and open the file to see result...
-<img src="./assets/images/02.png" style="width: 500px; height: 500px;"><br>
+
+![Picture result_012](./assets/images/02.png)
 
 * You can find the files in the profile directory.
 ```

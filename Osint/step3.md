@@ -15,7 +15,8 @@ Click `Releases`<br>
 
 ![Picture 03r](./assets/images/03r.png)
 
-And download `phoneinfoga_Linux_x86_64.tar.gz`<br>
+And download 
+`phoneinfoga_Linux_x86_64.tar.gz`<br>
 
 ![Picture 03p](./assets/images/03p.png)
 
@@ -65,22 +66,22 @@ cd ~/phoneinfoga
 <br>
 
 * After that click:<br>
-<img src="./assets/images/03.png" style="width: 500px; height: 250px;"><br>
+![Picture 03.png](./assets/images/03.png)
 <br>
 
 * Input port `8080` and click `Access`:<br>
-<img src="./assets/images/04.png" style="width: 500px; height: 250px;"><br>
+![Picture 04.png](./assets/images/04.png)
 <br>
 
 * In new window tab choice `Country code`, input `Phone number` and click `Lookup` :<br>
-<img src="./assets/images/05.png" style="width: 300px; height: 250px;"><br>
+![Picture 05.png](./assets/images/05.png)
 <br>
 
 * You can run Googlesearch scanner for more detail information :<br>
-<img src="./assets/images/06.png" style="width: 500px; height: 450px;">
+![Picture 06.png](./assets/images/06.png)
 <br>
 
-<img src="./assets/images/07.png" style="width: 500px; height: 250px;">
+![Picture 07.png](./assets/images/07.png)
 <br>
 
 <br>
