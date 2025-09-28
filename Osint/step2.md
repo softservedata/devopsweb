@@ -12,8 +12,10 @@ sudo apt install sherlock
 sherlock softserve --print-all
 ```
 > If you get this error message: "ERROR: Bad response while accessing data file URL"
-```https://raw.githubusercontent.com/sherlock-project/sherlock/master/sherlock/resources/data.json```
-![Picture Sherlock_run_error](./assets/images/Sherlock_run_error.png)
+```https://raw.githubusercontent.com/
+sherlock-project/sherlock/master/
+sherlock/resources/data.json```
+![Picture sherlock_error](./assets/images/sherlock_error.png)
 Please uninstall sherlock
 ```
 sudo apt remove sherlock
@@ -30,39 +32,53 @@ First, update your local package index with the latest information about availab
 cd ~/
 sudo apt update
 ```{{exec}}
-<br>
 
 * To avoid the "Connecting to archive.ubuntu.com" error, install the following Python dependencies
 ```
 sudo apt install python3-pip python3-venv python3-wheel
 ```{{exec}}
-<br>
+
+![Picture python_dependencies](./assets/images/python_dependencies.png)
 
 * Than, install pipx, using the following command
 ```
 sudo apt install pipx
 ```{{exec}}
-<br>
+
+![Picture pipx_install](./assets/images/pipx_install.png)
 
 * Install sherlock via pipx
 ```
 pipx install sherlock-project
 ```{{exec}}
-<br>
 
-![Picture 01i](./assets/images/01i.png)
+![Picture sherlock-project](./assets/images/01i.png)
 
+* Check the existence of the file and its properties
+```
+ls -al /root/.local/bin
+```{{exec}}
+
+![Picture sherlock_file](./assets/images/sherlock_file.png)
 
 * Add the path to the /.local/bin folder.
 ```
-sudo PATH="$PATH:/root/.local/bin"
+PATH="$PATH:/root/.local/bin"
 ```{{exec}}
-<br>
+
+* Check the PATH variable
+```
+echo $PATH
+```{{exec}}
+
+![Picture sherlock_path](./assets/images/sherlock_path.png)
+
 
 > You can run the command ```pipx ensurepath``` but you need to open a new terminal or re-login for this PATH change to take effect.
-
-> Community-maintained packages are available for Debian (>= 13), Ubuntu (>= 22.10), Homebrew, Kali, and BlackArch. These packages are not directly supported or maintained by the Sherlock Project.
 <br>
+
+> Community-maintained packages are available for Debian (>= 13), Ubuntu (>= 22.10), Homebrew, Kali, and BlackArch.
+These packages are not directly supported or maintained by the Sherlock Project.
 
 
 ### Hunting usernames using sherlock
@@ -72,14 +88,16 @@ sudo PATH="$PATH:/root/.local/bin"
 sherlock softserve --print-all
 ```{{exec}}
     Wait a few minutes to see result...
-<br>
+
+![Picture softserve_search](./assets/images/softserve_search.png)
 
 > In case of a server communication error, as a temporary solution, you can use the --local option to get the list of sites from the system like this:
 ```
 sherlock --local softserve
 ```{{exec}}
-<br>
-However, the local data.json file on your system is only updated when the Sherlock package itself is updated.
+    Wait a few minutes to see result...
+
+> However, the local data.json file on your system is only updated when the Sherlock package itself is updated.
 
 * Search for a username across 300 sites and save the output to a text file.
 ```
@@ -104,5 +122,12 @@ sherlock softserve --csv
 
 Wait a few minutes and open the file to see result...
 <img src="./assets/images/02.png" style="width: 500px; height: 500px;"><br>
+
+* You can find the files in the profile directory.
+```
+ls -al
+```{{exec}}
+
+![Picture directory_files](./assets/images/directory_files.png)
 
 <br />
