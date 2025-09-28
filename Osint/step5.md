@@ -4,15 +4,36 @@ Shodan is a search engine for Internet-connected devices.
 Discover how internet intelligence can help you make better decisions. 
 The entire Shodan platform (crawling, IP lookups, searching, and data streaming) is available to developers.
 
-### Installing Shodan
-
-* Install Shodan:
+### Prerequisites: You must have the python3-pip python3-venv python3-wheel packages installed.
+We installed them in the second step. If you skipped this step, run the commands
 ```
 cd ~/
-pip install shodan
+sudo apt update
+```{{exec}}
+<br>
+
+```
+sudo apt install python3-pip python3-venv python3-wheel
+```{{exec}}
+<br>
+
+```
+sudo apt install pipx
+```{{exec}}
+<br>
+
+### Installing Shodan
+
+* You can install shodan using the command:
+```
+cd ~/
+sudo apt install python3-shodan
 ```{{exec}}
     Wait a few minutes...
 <br>
+
+> NOTE.
+You can create a virtual environment `python3 -m venv my_shodan_env` activate it `source my_shodan_env/bin/activate` and install shodan with the command `pip install shodan`
 
 * After installation run command.
 ```
